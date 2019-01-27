@@ -1,0 +1,294 @@
+<html>
+
+<head>
+    <style>
+        ul.tab {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: rgb(189, 16, 177);
+        } 
+        ul.tab li {float: left;}
+        ul.tab li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        ul.tab li a:hover {background-color: #AEEEEE;}
+        ul.tab li a:focus, .active {background-color: #E0EEEE;}
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+        body {
+            background-color: #C0D9D9;
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        footer {
+            font-size: 9px;
+        }    
+        h2 {
+            font-size: 3px;
+        }
+        element.style {
+}
+body {
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  background: whitesmoke; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    text-align: center;
+    color: white;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+        </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Capsule Net</title>
+</head>
+
+<body>
+    <div><b>
+            <h1>Capsule Net Technologies -- We Help You Help Yourself</h1>
+        </b>
+        <h4>
+            <p>
+                <q><i>We are above our while competition </i> </q>
+            </p>
+            <p>
+                Bringing everyone together one capsule at a time
+            </p>
+        </h4>
+        <ul class="tab">
+            <li><a href="#" class="tablinks active" onclick="openLog(event, 'Home')">Home</a></li>
+            <li><a href="#" class="tablinks" onclick="openLog(event, 'About Us')">About Us</a></li>
+            <li><a href="#" class="tablinks" onclick="openLog(event, 'Social Media')">Social Media</a></li>
+            <li><a href="#" class="tablinks" onclick="openLog(event, 'Blog')">Blog</a></li>
+            <li><a href="#" class="tablinks" onclick="openLog(event, 'Contact Us')">Contact Us</a></li>
+            <li><a href="#" class="tablinks" onclick="openLog(event, 'Member Login')">Member Login</a></li>
+        </ul>
+        <div id="Home" class="tabcontent" style="display: block;">
+            <p>
+                <img src="https://i.imgur.com/kFPHl6Y.png" height="200" width="200">
+            </p>
+            <p>
+                Humanity has always been restricted by the Earth.
+            </p>
+            <p>
+                Our goal at Capsule Net has been, and always will be, to extend the hand of mankind into the heavens,
+                reaching up to what would have otherwise been forbidden to us by concerns of efficiency or feasibility.
+                Since 2018, our innovative Board of Directors and experienced workforce have been developing and
+                manufacturing some of the most advanced spacefaring technology from our headquarters in Long Island and
+                our operational test airfield in upstate New York. Our advancements in design began with the seminal
+                invention of the Mark IV/F magnetoplasmadynamic (MPD) Lorentz force thruster, and new projects are
+                being worked on day by day to succeed our latest innovations -- such as the Anacharis C(S)
+                satellite-mounted particle beam for the purpose of removing space debris, or the Valinor-G pulsed
+                electromagnetic shield device.
+            </p>
+            <p>
+                This website has been created, therefore, to speed along such development -- to, in short, solicit
+                investment and public interest in the crucial work of PAT. We represent the social good established
+                through space travel, and the enablement of what we believe to be humanity's manifest goal: To visit
+                and settle upon other planets than our "little blue marble."
+            </p>
+        </div>
+        <div id="About Us" class="tabcontent" style="display: none;">
+            <h3>
+                Flagship Capsules
+            </h3>
+            <p>
+                <img src=https://i.imgur.com/zRgsE9X.png height="150" width="150">
+            </p>
+            <p>
+                The Mark IV/F MPD thruster is the end point of several ventures in terms of magnetoplasmadynamic
+                engines, what was once considered the top achievement for methods of space travel -- more powerful than
+                liquid engines and more efficient than its kin in the field of ion engines. We at PAT are pleased to
+                announce that the IV/F, IV/G, and V/F models are available for commercial spaceflight use as of this
+                point in time, with the VI/S model restricted to government purchases only. All of these models are
+                lithium-fed self-field engines, compatible with the Prometheus II thermionic nuclear reactor also sold
+                by PAT.
+            </p>
+            <p>
+            </p>
+            <img src=http://up-ship.com/blog/wp-content/uploads/2013/10/GE-Lockheed-NPB.gif height=254 width=254>
+            <p>
+                Manufactured with cooperation from General Electric and Lockheed-Martin, the Anacharis C(S) neutral
+                particle device is designed to intercept debris in orbit of a massive object, the original design
+                birthed during the Strategic Defense Initiative for missile interception. This makes the Anacharis
+                platform uniquely viable for taking down space debris as it circulates through operational orbit space,
+                its solar panels enabling it to be charged from the surface using microwave lasers if its onboard
+                Promethus I thermionic reactor proves insufficient over extended operation.
+            </p>
+            <p>
+                <img src=https://vignette.wikia.nocookie.net/swfanon/images/0/01/Shield-storm.jpg/revision/latest?cb=20110115194130
+                    height=254 width=254>
+            </p>
+            <p>
+                The Valinor series of electromagnetic shielding technology provides protection for spacecraft that
+                would have been previously unheard-of. A three-dimensional scalar pattern of overlapping fields shields
+                astronauts on the long Mars Artery Transit from solar radiation and small meteoroids, which are
+                nevertheless still dangerous at the speed at which modern spacecraft travel. The geometries of these
+                fields ensure that small physical objects are destroyed on contact with the intense flux of the
+                magnetic fields, while dangerous radiation and charged particles are diffused throughout the field and
+                rendered harmless.
+            </p>
+            <div id="Social Media" class="tabcontent" style="display: none;">
+            </div>
+            <div id="Blog" class="tabcontent" style="display: none;">
+                <p>
+                    <b>Chief Executive Officer, Chairman and Director of Engineering:</b>
+                </p>
+                <p>
+                    Liam Mackey
+                </p>
+                <p>
+                    <b>Chief Operations Officer and Director of Graphical Design:</b>
+                </p>
+                <p>
+                    Matthew Avvinti
+                </p>
+                <p>
+                    <b>Director of Community and Social Outreach:</b>
+                </p>
+                <p>
+                    Anthony Falleo
+                </p>
+            </div>
+            <div id="Contact Us" class="tabcontent" style="display: none;">
+                <p><a href="https://www.facebook.com/Pareidolia-Aerospace-Technologies-182137762542019" target="_blank"><b>Facebook</b></a></p>
+            </div>
+            <div id="Member Login" class="tabcontent" style="display: none;">
+                <form action="memberpage.html">
+
+                    <div class="container">
+                        <label><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                    </div>
+                    <div>
+                        <label><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                    </div>
+                    <div>
+                        <button type="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked"> Remember me
+                        </label>
+                    </div>
+
+                    <div class="container">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">password?</a></span>
+                    </div>
+                </form>
+            </div>
+
+            <div>
+                <footer>
+                    <p>PAT website coded and written by "Team Two" New Horizons.</p>
+                    <p>"Pareidolia Aerospace Technologies"(tm) and any information available on this page sole property
+                        of Pareidolia Aerospace Technologies. Do not reproduce. Patent-protected.</p>
+                </footer>
+                <script>function openLog(evt, logName) {
+                        var i, tabcontent, tablinks;
+
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+
+                        document.getElementById(logName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }</script>
+            </div>
+        </div>
+</body>
+
+</html>
+
+<!-- hey fam how you doin' i bet you bein' a cheeky boye an' reading my code -->

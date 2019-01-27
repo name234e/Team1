@@ -1,0 +1,13 @@
+.Bob {
+    font-family: Arial, Helvetica, sans-serif
+}
+.meme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+    background-color: black;
+}

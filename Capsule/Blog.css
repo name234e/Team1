@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
+
+.footer {
+    margin-left: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+div .card {
+    margin-left: 30px;
+}
+h3{
+    font-family: 'Lobster', cursive !important;
+}
+}

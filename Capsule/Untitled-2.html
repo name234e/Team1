@@ -1,0 +1,21 @@
+<html>
+    <body>
+function getcommentsdatabase 
+var data = null;
+
+var xhr = new XMLHttpRequest();
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === 4) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("GET", "https://discussions-006e.restdb.io/rest/commenys");
+xhr.setRequestHeader("content-type", "application/json");
+xhr.setRequestHeader("x-apikey", "5c4ca3478932456b814556b1");
+xhr.setRequestHeader("cache-control", "no-cache");
+
+xhr.send(data);
+    </body>
+</html>
